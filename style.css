@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:500|Roboto&display=swap');
+
+body{
+  font-family: Poppins;
+  background-color: white;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+h1, h2 {
+  font-family: Robotto;
+
+}
+
+h1{
+  color: rgb(136, 63, 47)
+}
+
+h2{
+  color: rgb(233, 150, 122)
+
+}
+a{
+  text-decoration: none;
+  color: rgb(233, 150, 122);
+}
+
+footer{
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  letter-spacing: 1px;
+  background-color: rgb(233, 150, 122);
+  color: white;
+  font-family: Poppins;
+  margin-top: 30;
+  margin-bottom: 30;
+}
+
+.fancy:hover{
+  background-color: rgb(229, 152, 102)
+}
+
+.fancy{
+  border-radius: 8px;
+  background-color: rgb(235, 245, 251);
+}
+
+.list-inline{
+  list-style: none;
+  padding: 0;
+}
+
+.list-inline li{
+display: inline-block;
+}
+
+.website{
+  text-transform: uppercase;
+  color: rgb(52, 73, 94);
+  margin: 8px 30px;
+}
+
+a:hover{
+  color: white;
+  text-decoration: none;
+  background-color: rgb(229, 152, 102)
+}
+
+a:active{
+  color:black;
+}
+
+
+.card-white{
+  background-color: rgb(229, 231, 233);
+  padding: 24px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 24px auto;
+  text-align: center;
+  border-radius: 9px;
+}
+
+div{
+  background-color: white;
+  padding: 24px;
+  margin: 16px;
+}
+
+.img-circle{
+  width: 100px;
+  border-radius: 50%;
+}
+
+.btn-blue{
+  background-color:rgb(93, 109, 126);
+/*color: white;*/
+  padding: 8px 24px;
+  border-radius: 8px;
+  box-shadow: 5px 6px 7px #888888
+}
+
+.btn-blue:hover{
+  background-color: rgb(229, 152, 102);
+}
+
+
+h4 body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: skyblue;
+  background-image: -webkit-linear-gradient(90deg, skyblue 0%, steelblue 100%);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  overflow: hidden;
+  font-family: "Luckiest Guy", cursive;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: transparent;
+}
+
+h4 body:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  margin: auto;
+  border-radius: 100%;
+  background: transparent;
+  display: block;
+  box-shadow: 0 0 150px 100px rgba(255, 255, 255, 0.6),
+    200px 0 200px 150px rgba(255, 255, 255, 0.6),
+    -250px 0 300px 150px rgba(255, 255, 255, 0.6),
+    550px 0 300px 200px rgba(255, 255, 255, 0.6),
+    -550px 0 300px 200px rgba(255, 255, 255, 0.6);
+}
+
+
+h4 {
+  cursor: default;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  display: inline-grid;
+  text-align: right;
+}
+
+h4 span {
+  padding-right: 80px;
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  -webkit-animation: bounce 0.3s ease infinite alternate;
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+    0 5px 0 #ccc, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h4 span:nth-child(2) {
+  -webkit-animation-delay: 0.1s;
+}
+
+h4 span:nth-child(3) {
+  -webkit-animation-delay: 0.2s;
+}
+
+h4 span:nth-child(4) {
+  -webkit-animation-delay: 0.3s;
+}
+
+h4 span:nth-child(5) {
+  -webkit-animation-delay: 0.4s;
+}
+
+h4 span:nth-child(6) {
+  -webkit-animation-delay: 0.5s;
+}
+
+h4 span:nth-child(7) {
+  -webkit-animation-delay: 0.6s;
+}
+
+h4 span:nth-child(8) {
+  -webkit-animation-delay: 0.2s;
+}
+
+h4 span:nth-child(9) {
+  -webkit-animation-delay: 0.3s;
+}
+
+h4 span:nth-child(10) {
+  -webkit-animation-delay: 0.4s;
+}
+
+h4 span:nth-child(11) {
+  -webkit-animation-delay: 0.5s;
+}
+
+h4 span:nth-child(12) {
+  -webkit-animation-delay: 0.6s;
+}
+
+h4 span:nth-child(13) {
+  -webkit-animation-delay: 0.7s;
+}
+
+h4 span:nth-child(14) {
+  -webkit-animation-delay: 0.8s;
+}
+
+@-webkit-keyframes bounce {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+      0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+      0 50px 25px rgba(0, 0, 0, 0.2);
+  }
+}
+
+*/
